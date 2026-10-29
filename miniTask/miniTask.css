@@ -1,0 +1,18 @@
+.showcase {
+    width: 70%;
+    margin: 50px auto;
+}
+
+body{
+    background-color: rgba(253, 253, 253, 0.637);
+}
+h1{
+    color:hsl(138, 98%, 20%)
+}
+
+h2{
+    color:rgb(1, 96, 39);
+}
+p {
+    color:rgb(3, 3, 104)
+}

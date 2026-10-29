@@ -1,0 +1,76 @@
+
+/* Complete Portfolio Design */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background: linear-gradient(135deg, #dbeafe, #fce7f3, #ede9fe);
+    color: #263238;
+    line-height: 1.7;
+}
+
+/* Main Heading */
+h1 {
+    text-align: center;
+    color: white;
+    background: linear-gradient(90deg, #9051f5, #db2777);
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 5px 15px #0002;
+}
+
+/* Welcome Heading */
+h2 {
+    color: #803ef1;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* Section Headings */
+h3 {
+    color: #be185d;
+    border-left: 5px solid #8b5cf6;
+    padding-left: 12px;
+    margin-top: 25px;
+}
+
+/* Paragraphs */
+p {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #0001;
+}
+
+/* Skills List */
+ul {
+    background: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 1px solid #ddd6fe;
+}
+
+li {
+    color: #4338ca;
+    padding: 4px;
+}
+
+/* Hover Effect */
+li:hover {
+    color: #db2777;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+}
